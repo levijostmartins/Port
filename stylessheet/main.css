@@ -1,0 +1,146 @@
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: black
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: black;
+}
+nav a{
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: black;
+    color: lightgoldenrodyellow;
+}
+.logo{
+    width: 100px;
+    margin-top: 4px;
+}
+.about_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: black;
+}
+
+.card-img{
+    width: 500px;
+    grid-column: 1/2;
+    grid-template-rows: 1fr;
+}
+.about-text{
+    grid-column: 2/3;
+    width: 800px;
+}
+.about-text h1{
+text-align: center;
+font-size: 5em;
+color: darkgrey;
+}
+.about-text p{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 2em;
+    color: grey;
+}
+.quote{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-img2{
+    max-width: 80%;
+    margin: 0 auto;
+    grid-column: 1/4;
+    z-index: 0;
+    grid-row: 1/2;
+}
+.quote h2{
+    color: grey;
+    grid-column: 1/4;
+    z-index: 1;
+    grid-row: 1/2;
+}
+.quote p{
+    font-size: 2em;
+    color: darkgrey;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.links{
+    display: grid;
+    margin-top: 20px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 3fr;
+}
+.landscape-img{
+    width: 100px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.wildlife{
+    width: 100px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    padding: 25px 50px;
+    margin-top: 0px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    background-color: black;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    font-size: 2em;
+
+}
+footer a:hover{
+    background-color: black;
+    color: lightgoldenrodyellow;
+}
+footer p {
+    font-size: 2em;
+    color: grey;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
