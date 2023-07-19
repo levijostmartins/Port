@@ -1,24 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@500&display=swap');
+
+h1, h2{
+    font-family: "Kaushan Script";
+}
+p{
+    font-family: "Montserrat";
+}
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: black
+    background-color: #080808
 }
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: black;
-    color: black;
+    background-color: #080808;
+    color: #CF385B;
 }
 nav a{
     text-align: center;
-    color: grey;
+    color: #CF385B;
     text-decoration: none;
     font-size: 2em;
     padding: 35px;
 }
 nav a:hover {
     background-color: black;
-    color: lightgoldenrodyellow;
+    color: #3A6E62;
 }
 .logo{
     width: 100px;
@@ -27,9 +35,10 @@ nav a:hover {
 .about_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    background-color: black;
+    grid-template-rows: 1fr;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #3A6E62;
 }
 
 .card-img{
@@ -44,55 +53,46 @@ nav a:hover {
 .about-text h1{
 text-align: center;
 font-size: 5em;
-color: darkgrey;
+color: #080808;
 }
 .about-text p{
     text-align: left;
     margin-left: 50px;
     font-size: 2em;
-    color: grey;
+    color: #080808;
 }
-.quote{
+.photo-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -250px;
+    margin-bottom: 0px;
+    background-color: #3A6E62;
 }
-.card-img2{
-    max-width: 80%;
-    margin: 0 auto;
-    grid-column: 1/4;
-    z-index: 0;
-    grid-row: 1/2;
-}
-.quote h2{
-    color: grey;
-    grid-column: 1/4;
-    z-index: 1;
-    grid-row: 1/2;
-}
-.quote p{
-    font-size: 2em;
-    color: darkgrey;
-    grid-column: 1/4;
-    grid-row: 1/2;
-}
-.links{
-    display: grid;
-    margin-top: 20px;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 3fr;
-}
-.landscape-img{
-    width: 100px;
+.text1{
     grid-column: 1/2;
     grid-row: 2/3;
+    font-size: 3em;
+    text-align: center;
 }
-.wildlife{
-    width: 100px;
-    grid-column: 3/4;
+.text2{
+    grid-column: 2/3;
     grid-row: 2/3;
+    font-size: 3em;
+    text-align: center;
 }
-
-
+.landscape-img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    align-self: center;
+}
+.wildlife-img{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: center;
+}
 
 
 

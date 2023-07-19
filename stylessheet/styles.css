@@ -16,7 +16,7 @@ accent2-color: #3A6E62;
  /* these colors below should be chosen from among your palette colors above */
  --headline-color-on-white: #BB2649;  /* headlines on a white background */ 
  --headline-color-on-color: #3A6E62; /* headlines on a colored background */ 
- --paragraph-color-on-white: #BB2649; /* paragraph text on a white background */ 
+ --paragraph-color-on-white: #080808; /* paragraph text on a white background */ 
  --paragraph-color-on-color: #3A6E62; /* paragraph text on a colored background */ 
  --paragraph-background-color: #BB2649  ;
  --nav-link-color: #CF385B;
