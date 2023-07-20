@@ -93,14 +93,60 @@ color: #080808;
     grid-row: 3/4;
     align-self: center;
 }
+#pages{
+   
+    background-color: #3A6E62;
+}
+.landscapeh1 h1, .wildlifeh1 h1{
+    font-size: 5em;
+    text-align: center;
+    color: #080808;
+}
+.landscapeh1 p, .wildlifeh1 p{
+    font-size: 2em;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
-
-
-
-
-
-
-
+.landscape-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.landscape-grid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.landscape-album-1, .landscape-album-2{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landscape-album-1{
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landscape-album-1{
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.landscape-album-big-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 20px;
+}
 
 
 
